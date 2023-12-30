@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2023年最受歡迎的手機遊戲</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            opacity: 0;
+            transition: opacity 2s;
+        }
+        h1 {
+            color: #5a5a5a;
+        }
+        a {
+            color: #167ac6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            document.body.style.opacity = 1;
+        }
+        function goBack() {
+            document.body.style.opacity = 0;
+            setTimeout(function() {
+                window.history.back();
+            }, 2000);
+        }
+    </script>
+</head>
+<body>
+    <h1>2023年最受歡迎的手機遊戲</h1>
+
+    <!-- 鳴潮 -->
+    <h2><a href="mingchao.html">《鳴潮》</a></h2>
+
+    <!-- 絕區零 -->
+    <h2><a href="juequzero.html">《絕區零》</a></h2>
+
+    <!-- 劍與遠征 2：啟程 -->
+    <h2><a href="jianyu2.html">《劍與遠征 2：啟程》</a></h2>
+
+    <!-- 刺客教條：代號 JADE -->
+    <h2><a href="jade.html">《刺客教條：代號 JADE》</a></h2>
+
+    <!-- 全境封鎖：曙光 -->
+    <h2><a href="shuguang.html">《全境封鎖：曙光》</a></h2>
+</body>
+</html>
